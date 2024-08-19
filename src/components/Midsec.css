@@ -1,0 +1,78 @@
+.upi_logos{
+    display: flex;
+    gap: 8px;
+}
+
+.logo{
+    height: 2rem;
+    width: fit-content;
+    padding: 0 0.5rem;
+    border: 2px solid rgb(206, 206, 206);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo > img{
+    height: 60%;
+}
+.enterUpi > input{
+    margin-top: 1rem;
+    padding-left: 1rem;
+    width: 25rem;
+    height: 2.5rem;
+    border: 2px solid rgb(206, 206, 206);
+    border-radius: 5px;
+
+}
+/* .footer{
+    position: absolute;
+    bottom: 0;
+} */
+.pay-btn > button{
+    position: relative;
+    bottom: 0;
+    width: 25rem;
+    height: 2.9rem;
+    background-color: purple;
+    border-radius: 5px;
+
+    /* Font */
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.safe{
+    width: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+.safe > div > img{
+    height: 2rem;
+}
+.safe > p{
+    font-size: 1.1rem;
+    color: rgb(114, 114, 114);
+    margin: auto 0.5rem;
+}
+.instruction{
+    margin-top: 2rem;
+}
+.num{
+    display: flex;
+    font-size: 11px;
+}
+.num > span{
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: rgb(3, 3, 214);
+    padding:6px;
+    /* font */
+    color: white;
+}
+.num > p{
+    margin: auto 10px;
+}

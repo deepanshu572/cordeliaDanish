@@ -1,0 +1,41 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    height: 6rem;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 1px 1px 1px rgb(155, 152, 152);
+    display: flex;
+    padding: auto;
+}
+.navs{
+    margin: auto;
+    display: flex;
+    gap: 2rem;
+
+}
+.navs > li{
+    list-style: none;
+    font-size: 1.2em;
+}
+.navbar > button{
+    margin: auto 0.5rem;
+    height: 2.5rem;
+    width: fit-content;
+    padding: 0 0.5rem;
+    border: 2px solid purple;
+    border-radius: 3px;
+    background-color: white;
+    /* Font */
+    font-size: 1rem;
+    color: purple;
+    font-weight: 600;
+}
+.navbar > .bt{
+    background-color: purple;
+    color: white;
+}
+.navbar > img{
+    height: 100%;
+}

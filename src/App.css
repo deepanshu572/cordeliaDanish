@@ -1,0 +1,114 @@
+#root {
+  margin: 0 ;
+  padding: 0;
+}
+.body{
+  display: flex;
+  gap: 7rem;
+}
+.heading{
+  position: fixed;
+  top: 7rem;
+  left: 10rem;
+}
+.sec{
+  position: fixed;
+  top: 13rem;
+  left: 10rem;
+  display: flex;
+  gap:5rem ;
+  width: 48%;
+  height: 26rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 1px rgb(180, 180, 180);
+  padding: 2rem;
+}
+.footer{
+  position: absolute;
+  bottom: 30px;
+}
+
+.long{
+  width: 24.3rem ;
+  height: 2.5rem;
+  border-radius: 4px;
+  border: 2px solid rgb(145, 145, 145);
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+}
+.short{
+  width: 10.05rem;
+  height: 2.5rem;
+  border-radius: 4px;
+  border: 2px solid rgb(145, 145, 145);
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+}
+.card_logos{
+  height: 2rem;
+}
+.info{
+  margin: 0.5rem 0;
+  display: flex;
+  gap: 0.1rem;
+  font-size: 11px;
+}
+.info > img{
+  height: 7px;
+}
+.info > p{
+  margin: auto 0.3rem;
+}
+.sec-2{
+  display: flex;
+  gap: 10px;
+}
+
+.bank_logos{
+  height: 5rem;
+}
+.bank_logos > img{
+  height: 100%;
+}
+.select-bank{
+  margin-top: 2rem;
+  width: 25rem;
+  height: 3rem;
+  border-radius: 5px;
+  border: 2px solid rgb(145, 145, 145);
+  padding: 1rem;
+}
+.select-bank > option{
+  font-size: 15px;
+  color:rgb(145, 145, 145) ;
+}
+.b-2{
+  position: absolute;
+  top: 9rem;
+  right: 9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.trip{
+  height: fit-content;
+  width: fit-content;
+  border: 1px solid black;
+  padding: 1rem;
+}
+.trip > div{
+  width: 20rem;
+  display: flex;
+  position: relative;
+}
+.pdetail{
+  height: fit-content;
+  width: fit-content;
+  border: 1px solid black;
+  padding: 1rem;
+}
+.pdetail > div{
+  display: flex;
+  gap: 2rem;
+}
